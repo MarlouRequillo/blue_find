@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Belly Joe B. Basadre",
+        "Role": "Assistant Programmer",
+        "image": "./certification/b3.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://skillacademy.com/sertifikat/9Y4A6M5YDSZ72E"
+        }
+        
+    }, {
+        "name": "Marlou H. Requillo",
+        "Role": "Graphic Designer",
+        "image": "./certification/b2.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://www.dicoding.com/certificates/QLZ92D242X5D"
+        }
+    },
+    
+    {
+        "name": "Bien Ernest D. Quijano",
+        "Role": "Main Programmer & Project Leader",
+        "image": "./certification/b1.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://www.dicoding.com/certificates/NVP7KRLRGZR0"
+        }
+        
+    },
+    {
+        "name": "Learn basic javascript programming",
+        "Role": "Dicoding Academy x IndosatID Camp",
+        "image": "./certification/b4.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://www.dicoding.com/certificates/NVP7KRLRGZR0"
+        }
+        
+    }
+
+   
+
+]

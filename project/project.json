@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Blue Find Poster",
+        "tech": "HTML & CSS",
+        "image": "./assets/img/project/pepe.png",
+        "desc":"This Blue Find Poster",
+        "links": {
+          
+        }
+    },
+    {
+        "title": "BlueFind Mobile APP",
+        "tech": "HTML, CSS & JS",
+        "image": "./assets/img/project/Posterfff.png",
+        "desc":"This is the Final Poster of BlueFind.",
+        "links": {
+         
+        }
+    },{
+        "title": "Blue Find Brochure",
+        "tech": "HTML & CSS",
+        "image": "./assets/img/project/BRB.png",
+        "desc":"This is BlueFind Brochure.",
+        "links": {
+          
+        }
+    },{
+        "title": "Blue Find Brochure Stay Tuned!",
+        "tech": "HTML, CSS, JS & BOOTSTRAP",
+        "image": "./assets/img/project/BRB2.png",
+        "desc": "This is my project for company profile(Thalia Education)",
+        "links": {
+            
+        }
+    },{
+        "title": "BlueFind Website",
+        "tech": "HTML, CSS, JS & BOOTSTRAP",
+        "image": "./assets/img/project/B5.png",
+        "desc": "Download BlueFind now and start exploring, protecting, and earning points!",
+        "links": {
+          
+        }
+    }
+]

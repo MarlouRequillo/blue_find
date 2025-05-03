@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta
+            name="keywords"
+            content="Septiandwica, Septian dwi cahyo, septian, portfolio, personal portfolio, portfolio design, portfolio website"/>
+        <meta
+            name="description"
+            content="Welcome to septian's Portfolio. Front-End Web Developer, UI/UX Designer and Content Creator"/>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"/>
+        <link rel="stylesheet" href="src/style.css"/>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+        <link id="favicon" rel="shortcut icon" href=""/>
+        <title>BlueFind</title>
+    </head>
+    <body class="click-trigger">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-fixed w-100">
+            <div class="container d-flex justify-content-between align-items-center">
+              <!-- Brand/logo -->
+              <a class="navbar-brand" href="#">
+                <img src="assets/img/BlueFindNav.png" alt="Logo" style="height: 150px; ">
+
+              </a>
+          
+              <!-- Toggler button -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon d-block top-bar"></span>
+                <span class="toggler-icon d-block middle-bar"></span>
+                <span class="toggler-icon d-block bottom-bar"></span>
+              </button>
+          
+              <!-- Navbar links -->
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <style>
+                    .navbar-nav .nav-link {
+                      font-weight: bold;
+                      color: #009688; /* lighter purple */
+                      transition: color 0.3s ease;
+                    }
+                  
+                    .navbar-nav .nav-link:hover {
+                      color: #051367;
+                    }
+                  
+                    .navbar-nav .nav-link.active {
+                      color: black; /* Highlight active link */
+                    }
+                  </style>
+                  
+                <ul class="navbar-nav">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#about">About</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#certification">Team</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#project">Projects</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link fw-bold" href="#project">Info</a>
+                  </li>
+                </ul>
+              </div>
+              
+          
+              <!-- Contact button -->
+              <div class="d-none d-lg-block">
+                <a class="btn btn-outline-success" href="#contact"  >
+                  Contact me
+                </a>
+              </div>
+            </div>
+          </nav>
+          
+
+        <section class="home d-flex position-relative align-items-center justify-content-center" id="home">
+            <div id="particles-js" class="position-absolute"></div>
+            <div class="content d-flex flex-wrap flex-row">
+                <div class="intro">
+                    <h2>
+                        Hi There 👋<br/>
+                        Welcome to BlueFind
+                       
+               
+                    </h2>
+                        <h4>Explore nature with BlueFind! Help save endangered species,</h4> 
+                        <h4> discover affiliate souvenirs along your journey,and gain</h4>  <h4> points for every report you complete.</h4>
+                   
+                 
+                   
+                    <a href="#contact" class="btn mt-5 mb-0">
+                        
+                        <span>Get in touch</span>
+                        <i class="fas fa-arrow-circle-down"></i>
+                    </a>
+                    <div class="socials mt-4 position-relative">
+                        <ul class="social-icons my-0 px-0">
+                            <li class="d-inline-block">
+                                <a
+                                    class="linkedin d-inline-block"
+                                    aria-label="LinkedIn"
+                                    href=""
+                                  >
+                                    <i class="fab fa-facebook"></i>
+
+                                </a>
+                            </li>
+                            <li class="d-inline-block">
+                                <a
+                                    class="github d-inline-block"
+                                    aria-label="GitHub"
+                                    href=""
+                                   >
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </li>
+                            <li class="d-inline-block">
+                                <a
+                                    class="instagram d-inline-block"
+                                    aria-label="Instagram"
+                                    href=""
+                                  >
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div >
+                    <img 
+                    src="assets/img/Group 39.png" 
+                    style="max-height: 600px; width: auto;" 
+                    alt="Group 39" 
+                 
+                  />
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container d-flex flex-column">
+                <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                    <h2 class="text-center">
+                        <i class="fas fa-user-alt"></i>
+                        Company 
+                        <span>Overview</span>
+                    </h2>
+                </div> 
+
+                
+                
+                <div class="content d-flex align-items-center justify-content-center ">
+                    <div class="image" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="assets/img/Group 39.png"  style="max-height: 400px; width: auto;"  draggable="false"/>
+                    </div>
+                    <div class="intro" data-aos="fade-left" data-aos-duration="1000">
+               
+                        <h3>BlueFind</h3>
+                        <span class="tagline">BLUE FIND A TOURIST
+                            MOBILE APPLICATION</span>
+                        <p>
+                            BlueFind is a technology-driven company dedicated to enhancing responsible travel and environmental conservation. We specialize in the development of mobile applications, websites, and digital marketing solutions designed to connect users with real-world environmental initiatives. Through innovative tools, BlueFind empowers travelers to explore destinations, report endangered species, and earn rewards, promoting sustainable tourism practices. In collaboration with leading technology partners, we are committed to creating impactful solutions that support both communities and the environment.
+                        </p>
+                        <div class="hire-me">
+                            <p>
+                                <span>
+                                    <i class="fa fa-envelope"></i>
+                                    Email :
+                                </span>
+                                bluefind@gmail.com
+                            </p>
+                            <p>
+                                <span>
+                                    <i class="fa fa-map-marked"></i>
+                                    Place :
+                                </span>
+                                Mindanao, Philippines
+                            </p>
+                        </div>
+                        <div class="cv-btn d-flex flex-column">
+                            <a href="#skills" class="btn btn-outline-primary">
+                                <span>Powered By:</span>
+                                <i class="fas fa-arrow-circle-down"></i>
+                            </a>
+                            <a href="#" class="btn btn-outline-primary">
+                                <span>Download Now!</span>
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="skills d-flex flex-column" id="skills">
+                <div class="container d-flex flex-column">
+                    <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                        <h2>
+                            <i class="fas fa-laptop-code"></i>
+                            Skills & Team Participation
+                        </h2>
+                    </div>
+                    <div
+                        class="box d-flex flex-column align-items-center justify-content-center"
+                        data-aos="fade-left"
+                        data-aos-duration="1000">
+                        <h3>Powered
+                            <span>By</span></h3>
+                        <div class="image">
+                            <img draggable="false" src="assets/img/skills/evx.png"  style="max-height: 100px; width: auto;" alt="HTML5"/>
+                            <img draggable="false" src="assets/img/skills/LOGBF.png"     style="max-height: 100px; width: auto;"  alt="HTML5"/>
+                          
+                        
+                       
+                        </div>
+                    </div>
+                    <div class="box" data-aos="fade-right" data-aos-duration="1000">
+                        <h3>IC
+                            <span>Instutute of Computing</span></h3>
+                        <div class="image">
+                            <img draggable="false" src="assets/img/skills/IC.png"  style="max-height: 100px; width: auto;" alt="HTML5"/>
+               
+                        </div>
+                    </div>
+                    <div class="box" data-aos="fade-left" data-aos-duration="1000">
+                        <h3>DNSC
+                            <span>Institute of Advanced Studies
+                            </span></h3>
+                        <div class="image">
+                            <img draggable="false" src="assets/img/skills/DNSCC.png"  style="max-height: 100px; width: auto;" alt="HTML5"/>
+                       
+                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="certification d-flex flex-column align-items-center justify-content-center"
+            id="certification">
+            <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                <h2 class="text-center">
+                    <i class="fa fa-certificate"></i>
+                    Team
+                </h2>
+            </div>
+            <div class="content d-flex flex-wrap justify-content-center">
+            
+            </div>
+            <div class="loadmore-btn my-5" data-aos="fade-down">
+                <a href="#certifications" class="btn btn-outline-primary">Load More
+                </a>
+            </div>
+        </section>
+
+        <section class="project " id="project">
+            <div
+                class="container d-flex flex-wrap justify-content-center align-items-center">
+                <div class="title" data-aos="fade-down" data-aos-duration="1000">
+                    <h2 class="text-center">
+              
+                        Projects</h2>
+                </div>
+                <div
+                    class="content d-flex flex-row flex-wrap align-items-center justify-content-center"
+                    data-aos="fade-down">
+             
+                </div>
+                <div class="viewall-btn d-flex my-5 ">
+                    <a href="#project" class=" btn btn-outline-light" data-aos="fade-down">
+                        <span>View All</span>
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+      
+
+        <footer id="footer" class="footer d-flex flex-column">
+            <div class="top d-flex justify-content-sm-around">
+                <div class="content  d-flex flex-column">
+                    <img src="assets/img/BlueFindNav.png"    style="max-height: 200px; width: auto;"  alt="sdcicon">
+                    <h3>BlueFind</h3>
+                    <p>Thank you for visiting our website.</p>
+                </div>
+                <div class="content d-flex flex-column ">
+                    <h3>Useful Links</h3>
+                    <a href="#home">
+                        <i class="fa fa-arrow-circle-right"></i>
+                        Home</a>
+                    <a href="#about">
+                        <i class="fa fa-arrow-circle-right"></i>
+                        About</a>
+                    <a href="#certification">
+                        <i class="fa fa-arrow-circle-right"></i>
+                        Team</a>
+                    <a href="#project">
+                        <i class="fa fa-arrow-circle-right"></i>
+                        Projects</a>
+                        <a href="#home">
+                        <i class="fa fa-arrow-circle-right"></i>
+                        Email</a>
+                </div>
+                <div class="content  d-flex flex-column">
+                    <h4>Contact</h4>
+                    <a
+                        href="mailto:septiandwica@hotmail.com"
+                        rel="noopener noreferrer"
+                        target="_blank">
+                        <i class="fas fa-envelope"></i>
+                        bluefind@gmail.com</a>
+                    <a>
+                        <i class="fas fa-map-marked-alt"></i>
+                        Mindanao, Philippines
+                    </a>
+                    <div class="socials">
+                        <a
+                          
+                            class="fab fa-facebook"
+                            aria-label="LinkedIn"
+                            target="_blank"></a>
+                        <a
+                          
+                            class="fab fa-github"
+                            aria-label="GitHub"
+                            target="_blank"></a>
+                        <a
+                   
+                            class="fab fa-instagram"
+                            aria-label="Instagram"
+                            target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="text-center p-4">
+                    © 2023 Copyright:
+                    <a class="text-reset fw-bold" href="https://septiandwica.site/">bluefind@gmail.com</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- cdn script js-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+            integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.js"
+            integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+            crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+        <!-- main script js -->
+        <script src="src/particle.js"></script>
+        <script src="src/app.js"></script>
+        <script src="src/script.js"></script>
+    </body>
+</html>
